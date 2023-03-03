@@ -1,7 +1,9 @@
 import React from "react";
+import "../App.css"
+
 
 const Greeting = () => {
-  let curDate = new Date(2023, 3, 2, 22);
+  let curDate = new Date(2023, 3, 2, 10);
   // console.log(date);
   curDate = curDate.getHours();
   let greeting = "";
@@ -20,7 +22,7 @@ const Greeting = () => {
   return (
     <div className="container">
       <h2>
-        Hello @All,<span style={cssStyle}> {greeting}</span>
+        Hello @All<span style={cssStyle}> {greeting}</span>
       </h2>
     </div>
   );
