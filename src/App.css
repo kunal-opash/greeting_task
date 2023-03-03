@@ -23,7 +23,7 @@
   color: green;
 } */
 
-/* Responsive Greeting Device Wise:- */
+/* Responsive Greeting Device Wise:-moz-broken */
 
 @media (min-width: 1025px) and (max-width: 1440px) {
   .container {
