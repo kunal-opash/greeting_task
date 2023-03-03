@@ -23,6 +23,8 @@
   color: green;
 } */
 
+/* Responsive Greeting Device Wise:- */
+
 @media (min-width: 1025px) and (max-width: 1440px) {
   .container {
     width: 40%;
